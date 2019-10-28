@@ -1,4 +1,4 @@
-var cards = [
+const cards = [
     {
         rank: 'queen',
         suit: 'hearts',
@@ -20,7 +20,7 @@ var cards = [
     },
 
 ];
-var cardsInPlay = [];
+let cardsInPlay = [];
 
 function checkForMatch() {
     if (cardsInPlay.length === 2) {
@@ -42,11 +42,10 @@ function flipCard(event) {
     const cardId = parseInt(card.getAttribute('data-id'));
     card.setAttribute('src', cards[cardId].cardImage);
 
-    console.log(`User flipped ${cards[cardId].rank} of ${cards[cardId].suit} at ${cards[cardId].cardImage}`);
-
     cardsInPlay.push(cards[cardId].rank);
 
-    checkForMatch();
+    // checkForMatch();
+    setTimeout(checkForMatch, 200);
 }
 
 function createBoard() {

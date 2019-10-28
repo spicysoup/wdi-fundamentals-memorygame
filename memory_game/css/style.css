@@ -1,6 +1,6 @@
 body {
     text-align: center;
-	margin: 0;
+    margin: 0;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
     font-size: 45px;
     font-weight: 400;
     letter-spacing: 1px;
-	margin: 0;
+    margin: 0;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
     letter-spacing: 1px;
     color: #FFFFFF;
     text-decoration: none;
-	margin: auto 20px;
+    margin: auto 20px;
     border-bottom: 2px solid transparent;
 }
 
@@ -41,28 +41,28 @@ p {
 }
 
 header {
-	background-color: #F15B31;
-	color: #FFFFFF;
-	padding: 30px 20px;
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
 }
 
 nav {
-	background-color: #00A6B3;
-	color: #FFFFFF;
-	padding: 10px 0;
+    background-color: #00A6B3;
+    color: #FFFFFF;
+    padding: 10px 0;
 }
 
 main {
-	width: 850px;
-	margin: 35px auto;
+    width: 850px;
+    margin: 35px auto;
 }
 
 img {
-	margin: 40px 8px 0;
+    margin: 40px 8px 0;
 }
 
 h1, h2, nav {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 footer {
